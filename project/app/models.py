@@ -4,5 +4,5 @@ from django.db import models
 class Student(models.Model):
     Name = models.CharField(max_length=100)
     Email = models.EmailField(max_length=100)
-    Contact = models.IntegerField()
+    Contact = models.CharField(max_length=200)
     
